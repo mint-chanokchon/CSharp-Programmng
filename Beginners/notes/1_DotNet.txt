@@ -5,6 +5,14 @@
 
     # ส่วนประกอบหลักของ .NET คือ
         > CLI (Common Language Infrastructure)
+            - สามารถอธิบายได้
+            - ลำดับการทำงาน
+             Application Source Code -> 
+             (compile) -> 
+             Intermediate Language -> 
+             CLR -> 
+             Native Machine Code (ภาษาที่ hardware เข้าใจได้โดยตรง)
+
         > CLR (Common Language Runtime)
             - เป็น Virtual machine สำหรับ .NET Framework สำหรับรัน .NET 
               และให้บริการต่าง ๆ เช่น การจัดการหน่วยความจำ ความปลอดภัย ข้อผิดพลาด และจัดการเทรด
