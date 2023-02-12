@@ -1,0 +1,21 @@
+
+    # .NET คืออะไร ?
+    เป็นแพลตฟอร์มพัฒนาแอพพลิเคชันเพื่อสร้างแอปพลิเคชันต่าง ๆ มันจึงไม่ใช่ภาษาเดียว แต่รวมหลาย ๆ ภาษาเข้าด้วยกัน
+    โดยภาษาที่รองรับในปัจจุบัน คือ C#, F#, VB.NET
+
+    # ส่วนประกอบหลักของ .NET คือ
+        > CLI (Common Language Infrastructure)
+        > CLR (Common Language Runtime)
+            - เป็น Virtual machine สำหรับ .NET Framework สำหรับรัน .NET 
+              และให้บริการต่าง ๆ เช่น การจัดการหน่วยความจำ ความปลอดภัย ข้อผิดพลาด และจัดการเทรด
+              และทำการ compile MSIL เป็นภาษาเครื่อง
+            
+    # มี Module หลักอยู่ 2 ตัว คือ
+        > ASP.NET 
+            - Web Sites (static web content)
+            - Web Application (dynamic web content)
+            - Web Services (web api)
+        > C#.NET 
+            - Windows GUI Application
+            - Windows Services
+            - Console Application
