@@ -17,6 +17,8 @@
             - เป็น Virtual machine สำหรับ .NET Framework สำหรับรัน .NET 
               และให้บริการต่าง ๆ เช่น การจัดการหน่วยความจำ ความปลอดภัย ข้อผิดพลาด และจัดการเทรด
               และทำการ compile MSIL เป็นภาษาเครื่อง
+            - เป็น Execution Engine ของ dotnet โดยเมื่อมีการรัน dotnet จะต้องรันผ่าน CLR 
+              จะไมาได้รันผ่าน OS โดยตรง
             
     # มี Module หลักอยู่ 2 ตัว คือ
         > ASP.NET 
@@ -27,3 +29,6 @@
             - Windows GUI Application
             - Windows Services
             - Console Application
+    
+    # สามารถใช้่คำสั่ง ildasm ของ Developer command prompt เพื่อเปิดเครื่องมือที่ใช้อ่าน 
+      IL หรือ code ระดับกลางได้

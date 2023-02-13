@@ -1,0 +1,23 @@
+
+    # ประกอบด้วย 2 ส่วน คือ
+        - CLR (Common Language Runtime)
+        - FCL (Framework Class Library)
+
+    # FCL (Framework Class Library)
+    ประกอบด้วย class library ทั้งหมดของ .NET เช่น class, structure, interface
+
+    # .NET Framework Architecture (.NET Stack)
+        - ประกอบด้วยภาษาทั้งหมดใน .NET Framework เช่น C#, F#, VB.NET
+
+    [C#] [VB.NET] [VB.NRY]
+    [ Common Language Specification ]
+    [ WinForms ][ ASP.NET ][ WPF ][ Others ]
+    [ ADO.NET ]
+    [ Base class library ]
+    [ Common Language Runtime ]
+
+    # Base class library
+    เป็นชุดของ class library ที่ .NET Framework เตรียมไว้ให้ เพื่อทำงานทั่วไป เช่น I/O Operation,
+    Type Convertion, Thread worker
+    โดยต่างจาก FCL ตรงที่ ใช้ได้กับ .NET ทุกประเภท เช่น Console, Mobile, Web, Windows app
+    6:37
