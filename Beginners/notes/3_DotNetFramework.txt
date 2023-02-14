@@ -20,4 +20,47 @@
     เป็นชุดของ class library ที่ .NET Framework เตรียมไว้ให้ เพื่อทำงานทั่วไป เช่น I/O Operation,
     Type Convertion, Thread worker
     โดยต่างจาก FCL ตรงที่ ใช้ได้กับ .NET ทุกประเภท เช่น Console, Mobile, Web, Windows app
-    6:37
+
+    ตัวอบ่าง class ใใน BCL
+    - Console
+    - String
+    - StringBuilder
+    - Convert
+    - Thread
+    - Task
+    
+    # ADO.NET 
+    เป็น class ที่ถูกกำหนดไว้ล่วงหน้าของ .NET ใช้สำหรับเชื่อมต่อกับฐานข้อมูล
+    ตัวอย่าง class
+    - SqlConnection
+    - SqlCommand
+    - SqlDataAdapter
+    - SqlDataReader
+
+    # WinForms
+    เป็น Class Library ของ .NET ที่ใช้ในการทำ GUI
+    ตัวอย่าง class
+    - Form
+    - Label
+    - Button
+    - TextBox
+
+    # WPF
+    เป็น Class Library ของ .NET 3.0 ขึ้นไป ใช้ในการทำ GUI
+    ตัวอย่าง class
+    - Window 
+    - Label 
+    - Button
+    - TextBox
+
+    # ASP.NET 
+    เป็น Class Library ของ .NET ในการทำ web application
+
+    # CLS (Common Language Specification)
+    เป็นชุดของกฏหรือหลักเกณฑ์สำหรับ .NET
+    Common rules of CLS
+    - CTS (Common type system) เช่น int, double
+    - Classes, Object
+    - Reference, Variables
+    - Method parameter
+    - Generics
