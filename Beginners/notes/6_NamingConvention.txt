@@ -1,0 +1,16 @@
+
+    # camelCase
+        - ใช้สำหรับ local variable 
+        - เช่น userProfile
+
+    # PascalCase
+        - ใช้สำหรับ class, structure, namespace, field, method, property
+        - เช่น Customer
+
+    # IPascalCase
+        - ใช่สำหรับ Interface
+        - เช่น ICustomer
+
+    # _camelCase
+        - ใช้สำหรับ private field
+        - เช่น _db
