@@ -1,0 +1,15 @@
+
+    # Namespace คืออะไร ?
+    มีไว้สำหรับจัดกลุ่มของคลาส
+    เช่น เรามี Namespace ที่ชื่อว่า มหาวิทยาลัย โดยในมหาวิทยาลัยจะมี ครู นักเรียน เจ้าหน้าที่
+
+    # สามารถเข้าถึง class ใน namespace โดยใช้วิธี namespace.className
+    เช่น
+    namespace Garage
+    {
+        class Car
+        {
+
+        }
+    }
+    Garage.Car
