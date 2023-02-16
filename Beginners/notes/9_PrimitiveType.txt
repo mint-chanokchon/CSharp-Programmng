@@ -1,0 +1,117 @@
+﻿
+	### Primitive Type
+
+	# Type หรือ Data Type เป็นการระบุประเภทของข้อมูลคุณต้องการจะเก็บไว้ในตัวแปร
+		- เช่น int, float, string, bool
+
+	# Primitive Type ()
+		- เป็น data type พื้นฐาน ใช้สำหรับเก็บค่า ๆ เดียวเท่านั้น
+		> ได้แก่
+			- sbyte		
+				o 8-bit signed integer
+				o Size		-> 1 byte
+				o Range		-> -128 to 127
+				o default	-> 0
+				o min		-> sbyte.MinValue
+				o max		-> sbyte.MaxValue
+			- byte
+				o 8-bit un-signed integer
+				o Size		-> 1 byte
+				o Range		-> 0 to 255
+				o default	-> 0
+				o min		-> byte.MinValue
+				o max		-> byte.MaxValue
+			- short
+				o 16-bit signed integer
+				o Size		-> 2 byte
+				o Range		-> -32,768 to 32,767
+				o default	-> 0
+				o min		-> short.MinValue
+				o max		-> short.MaxValue
+			- ushort
+				o 16-bit signed integer
+				o Size		-> 2 byte
+				o Range		-> 0 to 65,535
+				o default	-> 0
+				o min		-> ushort.MinValue
+				o max		-> ushort.MaxValue
+			- int
+				o 32-bit signed integer
+				o Size		-> 4 byte
+				o Range		-> -2,147,483,648 to 2,147,483,647
+				o default	-> 0
+				o min		-> int.MinValue
+				o max		-> int.MaxValue
+			- uint
+				o 32-bit signed integer
+				o Size		-> 4 byte
+				o Range		-> 0 to 4,294,967,298
+				o default	-> 0
+				o min		-> uint.MinValue
+				o max		-> uint.MaxValue
+			- long
+				o 64-bit signed integer
+				o Size		-> 8 byte
+				o Range		-> -9,223,472,036,854,775,808 to 9,223,472,036,854,775,807
+				o default	-> 0
+				o min		-> ushort.MinValue
+				o max		-> ushort.MaxValue
+			- ulong
+				o 64-bit signed integer
+				o Size		-> 8 byte
+				o Range		-> 0 to 18,446,744,073,709,551,615
+				o default	-> 0
+				o min		-> ulong.MinValue
+				o max		-> ulong.MaxValue
+			- float
+				o 32-bit signed integer
+				o Size		-> 4 byte
+				o Range		-> -3.402823E to 3.402823E+38
+				o Precision	-> 7 digit
+				o default	-> 0F
+				o min		-> float.MinValue
+				o max		-> float.MaxValue
+			- double
+				o 64-bit signed integer
+				o Size		-> 8 byte
+				o Range		-> -1.79769313486232E+308 to 1.79769313486232E+308
+				o Precision	-> 15 digit
+				o default	-> 0D
+				o min		-> double.MinValue
+				o max		-> double.MaxValue
+			- decimal
+				o 128-bit signed integer
+				o Size		-> 16 byte
+				o Range		-> ~ to ~
+				o Precision	-> 28 digit
+				o default	-> 0M
+				o min		-> double.MinValue
+				o max		-> double.MaxValue
+			- char
+				o 16-bit signed integer
+				o Size		-> 2 byte
+				o Range		-> 0 to 137,994 (ASCII)
+				o default	-> \0 (null)
+				o ASCII		-> 0 to 255
+				o UniCode	-> ASCII + Other natural language characters
+			- bool
+				o Store logical value (true/false)
+				o Size		-> 1 bit
+				o Range		-> Length * 2 (bytes)
+				o default	-> false
+
+	# Non-Primitive Type
+		- ประเภทของข้อมูลที่ไม่ใช่ data type พื้นฐาน 
+		- อาจเป็นกลุ่มของ Primitive type
+		> ได้แก่
+			- string (ชุดของ chars)
+				o Collection of unicode characters
+				o Size		-> Length * 2 (bytes)
+				o default	-> null
+				o ASCII		-> 0 to 2 billion characters
+			- Class
+			- Interface
+			- Structure
+			- Enumeration
+
+	# สามารถใช้ dafault(type) เพื่อดึงเอา dafault value ของ data type นั้นได้
